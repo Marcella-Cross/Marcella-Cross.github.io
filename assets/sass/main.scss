@@ -1118,13 +1118,6 @@ $size-header-pad: 4em;
     				height: 19em; /* Ensure the height matches the width */
     				border-radius: 50%; /* Make it round */
 }
-
-		.image.iconz {
-    				margin: 0 0 (_size(element-margin) * 0.5) 0;
-    				width: 8em; /* 1/4 of the first image's size */
-    				height: 8em; /* Ensure the height matches the width */
-    				border-radius: 50%; /* Make it round */
-}
 	}
 
 /* Footer */
@@ -1162,6 +1155,12 @@ $size-header-pad: 4em;
 					color: inherit;
 				}
 			}
+		.image.iconz {
+    				margin: 0 0 (_size(element-margin) * 0.5) 0;
+    				width: 8em; /* 1/4 of the first image's size */
+    				height: 8em; /* Ensure the height matches the width */
+    				border-radius: 50%; /* Make it round */
+}
 		}
 	}
 

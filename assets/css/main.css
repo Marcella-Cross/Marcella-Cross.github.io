@@ -2145,6 +2145,18 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 100%;
 			}
+    .image.iconz{
+			border-radius: 100%;
+		}
+
+			.image.iconz:before {
+				display: none;
+			}
+
+			.image.iconz img {
+				border-radius: 100%;
+				width: 100%;
+			}
 
 /* List */
 

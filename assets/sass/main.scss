@@ -1122,47 +1122,49 @@ $size-header-pad: 4em;
 
 /* Footer */
 
-	#footer {
-		.icons {
-			margin: (_size(element-margin) * 0.5) 0 0 0;
+#footer {
+  .icons {
+    margin: (_size(element-margin) * 0.5) 0 0 0;
 
-			a {
-				color: _palette(accent2, fg-light);
-			}
-		}
+    a {
+      color: _palette(accent2, fg-light);
+    }
+  }
 
-		.copyright {
-			color: _palette(accent2, fg-light);
-			font-size: 0.8em;
-			list-style: none;
-			margin: (_size(element-margin) * 0.5) 0 0 0;
-			padding: 0;
+  .copyright {
+    color: _palette(accent2, fg-light);
+    font-size: 0.8em;
+    list-style: none;
+    margin: (_size(element-margin) * 0.5) 0 0 0;
+    padding: 0;
 
-			li {
-				border-left: solid 1px _palette(accent2, border);
-				display: inline-block;
-				line-height: 1em;
-				margin-left: 0.75em;
-				padding-left: 0.75em;
+    li {
+      border-left: solid 1px _palette(accent2, border);
+      display: inline-block;
+      line-height: 1em;
+      margin-left: 0.75em;
+      padding-left: 0.75em;
 
-				&:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
+      &:first-child {
+        border-left: 0;
+        margin-left: 0;
+        padding-left: 0;
+      }
 
-				a {
-					color: inherit;
-				}
-			}
-		.image.iconz {
-    				margin: 0 0 (_size(element-margin) * 0.5) 0;
-    				width: 8em; /* 1/4 of the first image's size */
-    				height: 8em; /* Ensure the height matches the width */
-    				border-radius: 50%; /* Make it round */
+      a {
+        color: inherit;
+      }
+    }
+  }
 }
-		}
-	}
+
+/* Global image class for iconz */
+.image.iconz {
+  margin: 0 0 (_size(element-margin) * 0.5) 0;
+  width: 7em; /* 1/4 of the first image's size */
+  height: 7em; /* Ensure the height matches the width */
+  border-radius: 50%; /* Make it round */
+}
 
 /* Main */
 

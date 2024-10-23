@@ -694,6 +694,18 @@ $size-header-pad: 4em;
 				width: 100%;
 			}
 		}
+		&.iconz {
+			border-radius: 100%;
+
+			&:before {
+				display: none;
+			}
+
+			img {
+				border-radius: 100%;
+				width: 100%;
+			}
+		}
 	}
 
 /* List */
@@ -1114,10 +1126,16 @@ $size-header-pad: 4em;
 
 		.image.avatar {
     				margin: 0 0 (_size(element-margin) * 0.5) 0;
-    				width: 15em; 
-    				height: 15em; 
+    				width: 10em; 
+    				height: 9em; 
     				border-radius: 50%;
-}
+		}
+		.image.iconz {
+    				margin: 0 0 (_size(element-margin) * 0.5) 0;
+    				width: 4em; 
+    				height: 4em; 
+    				border-radius: 50%;
+		}
 	}
 
 /* Footer */
@@ -1156,14 +1174,6 @@ $size-header-pad: 4em;
       }
     }
   }
-}
-
-/* Global image class for iconz */
-.image.iconz {
-  margin: 0 0 (_size(element-margin) * 0.5) 0;
-  width: 7em; /* 1/4 of the first image's size */
-  height: 7em; /* Ensure the height matches the width */
-  border-radius: 50%; /* Make it round */
 }
 
 /* Main */

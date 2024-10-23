@@ -1726,6 +1726,16 @@ input[type=radio] + label:before {
   border-radius: 100%;
   width: 100%;
 }
+.image.iconz {
+  border-radius: 100%;
+}
+.image.iconz:before {
+  display: none;
+}
+.image.iconz img {
+  border-radius: 100%;
+  width: 100%;
+}
 
 /* List */
 ol {
@@ -2151,8 +2161,14 @@ input[type=button]:disabled,
 }
 #header .image.avatar {
   margin: 0 0 1em 0;
-  width: 15em;
-  height: 15em;
+  width: 10em;
+  height: 9em;
+  border-radius: 50%;
+}
+#header .image.iconz {
+  margin: 0 0 1em 0;
+  width: 4em;
+  height: 4em;
   border-radius: 50%;
 }
 
@@ -2184,14 +2200,6 @@ input[type=button]:disabled,
 }
 #footer .copyright li a {
   color: inherit;
-}
-
-/* Global image class for iconz */
-.image.iconz {
-  margin: 0 0 1em 0;
-  width: 7em; /* 1/4 of the first image's size */
-  height: 7em; /* Ensure the height matches the width */
-  border-radius: 50%; /* Make it round */
 }
 
 /* Main */

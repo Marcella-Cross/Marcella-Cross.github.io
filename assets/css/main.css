@@ -2165,14 +2165,14 @@ input[type=button]:disabled,
   height: 9em;
   border-radius: 50%;
 }
-#header .image.iconz {
+
+/* Footer */
+#footer .image.iconz {
   margin: 0 0 1em 0;
   width: 4em;
   height: 4em;
   border-radius: 50%;
 }
-
-/* Footer */
 #footer .icons {
   margin: 1em 0 0 0;
 }

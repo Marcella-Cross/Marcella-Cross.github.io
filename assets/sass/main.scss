@@ -1130,17 +1130,17 @@ $size-header-pad: 4em;
     				height: 9em; 
     				border-radius: 50%;
 		}
-		.image.iconz {
-    				margin: 0 0 (_size(element-margin) * 0.5) 0;
-    				width: 4em; 
-    				height: 4em; 
-    				border-radius: 50%;
-		}
 	}
 
 /* Footer */
 
 #footer {
+			.image.iconz {
+    				margin: 0 0 (_size(element-margin) * 0.5) 0;
+    				width: 4em; 
+    				height: 4em; 
+    				border-radius: 50%;
+		}
   .icons {
     margin: (_size(element-margin) * 0.5) 0 0 0;
 

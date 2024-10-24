@@ -7,12 +7,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "marcella.cross@botany.ubc.ca";
     $subject = "New message from $name";
     $body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
-    $headers = "From: $email";
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "X-Mailer: PHP/" . phpversion();
 
     if (mail($to, $subject, $body, $headers)) {
         echo "Message sent successfully!";
     } else {
+        error_log("Mail failed to send to $to");
         echo "Failed to send message.";
     }
 }
 ?>
+
